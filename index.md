@@ -3,7 +3,7 @@
 
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
- <afaz.munshi49@gmail.com> | (204) 930-7179 | [linkedIn](http://linkedin.com)
+ <afaz.munshi49@gmail.com> | (204) 930-7178 | [linkedIn](http://linkedin.com)
 
 
 ## Experience
