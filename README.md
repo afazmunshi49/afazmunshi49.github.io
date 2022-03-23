@@ -1,6 +1,6 @@
-# Afaz's Resume
+# Hosting a Static Resume Website
 
-This is my personal resume and is hosted on Github pages. 
+This document will show you how to host your markdown formated resume on web using a static website generator . 
 
 ## Getting Started
 
@@ -9,30 +9,42 @@ click [here](https://afazmunshi49.github.io/). If you would like to download the
 
 ### Prerequisites
 
-You will need to have Jekyll and a text editor such as VS code installed on your computer. Links to both the tools can be found below
+- To create a resume like this and host it online, we will be using a few tools like Jekyll, VS code, and GitHub Pages. If you don't have these tools on your local machine, then feel free to follow the link and download.
+- You will also need to know how to write in markdown fomat, use the link below to learn more about markdown files and its usages.
+- You should also have some knowledge about using Git and GitHub
+- You should know how to use a terminal (e.g. cmd)
 - [jekyll](https://jekyllrb.com/)
 - [VS code](https://code.visualstudio.com/)
+- [Markdown Files](https://www.markdownguide.org/getting-started/)
 
 Etter's book really encourages the its readers to use a static site generator like Jekyll and a markdown formatted file. As opposed to a pdf, this type of documentation can easily be updated by the developer.
 
-### Installing
+### Instructions
 
-In order to download this project on your local computer, follow the following steps.
+In order to get started with the project, we will first create a resume using a markdown formatted file.
 
-Open cmd
+1. Open VS code on your local machine and write your resume in markdown formatted file. Save that file by the name of index.md. This will be the file that will be executed on your static website
 
-    I will probably put a screenshot of a cmd terminal
+       index.md
 
-Now locate the directory you would like to save this project in using the cd command
+2. Now we want to give styling to the reusme, for this we will be using Jekyll. For this part, you can use your terminal to browse down to the directory of your index.md. Now run the command 
+        jekyll new _config.yml
+It is impartant that you save your file name as, _config.yml, this is to give GitHub pages an indication that we are using Jekyll. You can add the styling you want on your resume in this file. An example of a basic style is,
+        theme: jekyll-theme-slate
+This will give a basic style to your resume template.
 
-    cd Desktop/Resumes
+3. Create a new repository on GitHub. Make sure you have proper naming convention in order to host your website on GitHub Pages. The name of your repository should be your user name folled by a dot (.) followed by github, followed by a dot (.) followed by io. For example my user name is afazmunshi49, this means my repo should be named as follows,
+        afazmunshi49.github.io
 
-Run the git command to clone this project with the given link
-    
-    git clone https://github.com/afazmunshi49/afazmunshi49.github.io.git
+4. Now it is time to host our resume on GitHub Pages so that it is available to the entire world and not just to un on our local machine. Start by cloning the repository you just created inside the folder where you stored your resume is on your local machine using a terminal.
+        git clone https:\\git_user_name\repo_name\
 
-At this point, you have a local copy of the project that you can open or edit.
+Commit your local git repo and finally push your code on the remote repository.
 
+5. Finally, your static resume website is up online. To test your website, type `https:\\` followed by the name  of your repository, this will prompt GitHub pages to open your `index.md` file on your browser and show your resume like a browser.
+
+# GIF
+![My resume GIF](giphy.mp4)
 
 ## Built With
 
