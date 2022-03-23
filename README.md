@@ -59,6 +59,8 @@ Etter's book really encourages its readers to use a distributed version control 
 
   - **Mohammadafaz Munshi** - *Wrote a resume and readme file in markdown format*
   
+## More Resources
+    [Etter's Book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
 ## FAQ's
  1. Why are GitHub pages not showing my markdown?
  - Sometimes GitHub Pages take time to update your resume. If it is not showing at the moment, then come back after a 20 minutes
