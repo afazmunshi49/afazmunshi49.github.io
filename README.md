@@ -17,7 +17,7 @@ click [here](https://afazmunshi49.github.io/). If you would like to download the
 - [VS code](https://code.visualstudio.com/)
 - [Markdown Files](https://www.markdownguide.org/getting-started/)
 
-Etter's book really encourages the its readers to use a static site generator like Jekyll and a markdown formatted file. As opposed to a pdf, this type of documentation can easily be updated by the developer.
+Etter's book really encourages the its readers to use a static site generator like Jekyll and a markdown formatted file. As opposed to a pdf, this type of documentation can easily be updated by the developer. The pdf will sit on your local machine and will never get updated and hence forcing you to download/upload a copy everytime there is an update. On the other hand, in a static website, once an update is made, it get updated for all the users.
 
 ### Instructions
 
@@ -43,6 +43,9 @@ Commit your local git repo and finally push your code on the remote repository.
 
 5. Finally, your static resume website is up online. To test your website, type `https:\\` followed by the name  of your repository, this will prompt GitHub pages to open your `index.md` file on your browser and show your resume like a browser.
 
+
+Etter's book really encourages its readers to use a distributed version control like GitHub. This allows multiple developers (contributors) to make a contribution to the project. This will also allow them to host their site on GitHub Pages which is accessible to everyone.
+
 # GIF
 ![My resume GIF](giphy.mp4)
 
@@ -51,8 +54,6 @@ Commit your local git repo and finally push your code on the remote repository.
   - [Jekyll](https://jekyllrb.com/) - Used as a static site generator to give styling to the resume
   - [VS code](https://code.visualstudio.com/) - Used as an editor to write the markdown file
   - [GitHub Pages](https://pages.github.com/) - Used to host the resume on web 
-
-Etter's book really encourages its readers to use a distributed version control like GitHub. This allows multiple developers (contributors) to make a contribution to the project. This will also allow them to host their site on GitHub Pages which is accessible to everyone. 
 
 ## Authors
 
